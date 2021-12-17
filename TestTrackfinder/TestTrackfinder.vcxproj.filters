@@ -15,51 +15,75 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestTrackfinder.cpp">
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EvaluatorMain.cxx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="PndLectureTrackCand.cpp">
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\main.cxx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="PndMCTrack.cpp">
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\IdealTrackFinder\IdealTrackFinder.cxx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="PndSttLectureHit.cpp">
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndLectureTrackCandInfo.cxx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="EventHandler.cpp">
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndMCTrackInfo.cxx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="EventWriter.cpp">
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluator.cxx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="IdealTrackFinder.cpp">
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluatorHandler.cxx">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndLectureTrackCand.cxx">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndMCTrack.cxx">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndSttLectureHit.cxx">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventHandler.cxx">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="PndLectureTrackCand.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventHandler.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="PndMCTrack.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventReader.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="PndSttLectureHit.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventWriter.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="EventHandler.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\IdealTrackFinder\IdealTrackFinder.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="EventReader.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndLectureTrackCand.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="EventWriter.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndLectureTrackCandInfo.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="IdealTrackFinder.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndMCTrack.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="TrackFinderBase.h">
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndMCTrackInfo.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndSttLectureHit.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluator.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluatorHandler.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackFinderBase\TrackFinderBase.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

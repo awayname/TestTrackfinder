@@ -18,6 +18,33 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndLectureTrackCand.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndMCTrack.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndSttLectureHit.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EvaluatorMain.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventHandler.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\IdealTrackFinder\IdealTrackFinder.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\main.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndLectureTrackCandInfo.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndMCTrackInfo.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluator.cxx" />
+    <ClCompile Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluatorHandler.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndLectureTrackCand.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndMCTrack.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\data\PndSttLectureHit.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventHandler.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventReader.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\EventHandler\EventWriter.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\IdealTrackFinder\IdealTrackFinder.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndLectureTrackCandInfo.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\PndMCTrackInfo.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluator.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackEvaluation\TrackEvaluatorHandler.h" />
+    <ClInclude Include="..\..\..\..\LectureTracking\lecturetracking\source\lecturetracking\TrackFinderBase\TrackFinderBase.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,25 +165,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="EventHandler.cpp" />
-    <ClCompile Include="EventWriter.cpp" />
-    <ClCompile Include="IdealTrackFinder.cpp" />
-    <ClCompile Include="PndLectureTrackCand.cpp" />
-    <ClCompile Include="PndMCTrack.cpp" />
-    <ClCompile Include="PndSttLectureHit.cpp" />
-    <ClCompile Include="TestTrackfinder.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="EventHandler.h" />
-    <ClInclude Include="EventReader.h" />
-    <ClInclude Include="EventWriter.h" />
-    <ClInclude Include="IdealTrackFinder.h" />
-    <ClInclude Include="PndLectureTrackCand.h" />
-    <ClInclude Include="PndMCTrack.h" />
-    <ClInclude Include="PndSttLectureHit.h" />
-    <ClInclude Include="TrackFinderBase.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

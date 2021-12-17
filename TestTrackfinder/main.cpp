@@ -7,6 +7,7 @@
 #include "EventHandler.h"
 #include "IdealTrackFinder.h"
 
+
 int main(int argc, char** argv) {
     int i = 1;
     std::string inputFile("./data/SimpleCase_1Muon.csv");
